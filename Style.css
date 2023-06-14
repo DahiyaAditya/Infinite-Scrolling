@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Rubik:wght@300&display=swap');
+
+*{
+
+    box-sizing: border-box;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+ 
+
+html{
+
+    font-size: 62.5%;
+
+}
+
+body{
+
+    background-color: rgb(126, 126, 227);
+
+    padding: 5rem 10rem;
+
+}
+
+.container{
+
+    min-width: 20rem;
+
+    width: 70vw;
+
+    margin: auto;
+
+    /* background-color: azure; */
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-direction: column;
+
+}
+
+.container h1{
+
+    font-size: 40px;
+
+}
+
+.container .post{
+
+    margin-top: 5rem;
+
+    background-color: rgb(202, 228, 250);
+
+    padding:2rem 5rem ;
+
+    border-radius: 1rem;
+
+    box-shadow: 0 2rem 2rem -1.7rem black;
+
+}
+
+.post-id{
+
+    width: 3rem;
+
+    height: 3rem;
+
+    background-color: rgb(5, 57, 39);
+
+    color: aliceblue;
+
+    display: grid;
+
+    place-items: center;
+
+}
+
+.title{
+
+    font-size: 2.5rem;
+
+    margin: 2rem 0 1rem 0;
+
+    text-transform: capitalize;
+
+}
+
+.post-info{
+
+    font-size:1.7rem ;
+
+}
